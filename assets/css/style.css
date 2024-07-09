@@ -116,7 +116,7 @@ h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 15px; /*12px*/
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -347,7 +347,7 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 80px; /*64px*/
   font-family: "Satisfy", serif;
   color: #fff;
 }
