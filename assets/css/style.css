@@ -943,30 +943,38 @@ section {
   transition: all 0.8s ease-in-out;
 }
 
-.portfolio .portfolio-item .portfolio-info {
+.portfolio .portfolio-item .portfolio-info { /*Changes*/
   opacity: 0;
   position: absolute;
-  left: 15px;
+  left: 13px;
   bottom: 0;
+  top:0;
   z-index: 3;
-  right: 15px;
+  right: 13px;
   transition: all ease-in-out 0.3s;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
-  color: #fff;
+.portfolio .portfolio-item .portfolio-info h4 { /*Changes*/
+  font-size: 25px;
+  text-align: center;
+  color: #f3a200;
+  border-color: #ffb727;
   font-weight: 600;
-  color: #fff;
-  margin-bottom: 0px;
+  color: #f3a200;
+  position: relative;
+  top: 50%;
+  vertical-align: middle;
 }
 
-.portfolio .portfolio-item .portfolio-info p {
+.portfolio .portfolio-item .portfolio-info p { /*Changes*/
   color: rgba(255, 255, 255, 0.8);
+  text-align: center;
   font-size: 14px;
-  margin-bottom: 0;
+  position: relative;
+  top: 50%;
+  vertical-align: middle;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
