@@ -643,7 +643,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/myimg01.jpeg") center center no-repeat;
+  background: url("../img/myimg01.jpg") center center no-repeat;
   background-size: contain auto;
   min-height: 500px;
 }
