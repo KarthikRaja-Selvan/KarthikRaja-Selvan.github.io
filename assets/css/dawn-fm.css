@@ -106,7 +106,7 @@ a:hover, a:focus { color: var(--dawn-lilac); }
 #hero .hero-container { position: relative; z-index: 2; padding: 0 24px; }
 #hero h1 {
   color: var(--dawn-white) !important;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Satisfy', serif;
   font-size: clamp(42px, 7.5vw, 88px);
   font-weight: 800;
   letter-spacing: .075em;
