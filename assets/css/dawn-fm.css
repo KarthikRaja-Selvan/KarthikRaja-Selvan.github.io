@@ -81,7 +81,7 @@ a:hover, a:focus { color: var(--dawn-lilac); }
     radial-gradient(ellipse at 78% 24%, rgba(169,156,255,.30), transparent 31%),
     radial-gradient(ellipse at 17% 76%, rgba(74,137,204,.25), transparent 39%),
     linear-gradient(115deg, rgba(3,6,15,.86), rgba(8,15,32,.55) 55%, rgba(17,20,43,.48)),
-    url("../img/bg.jpg") center center / cover no-repeat !important;
+    url("../img/bg.jpg") top right / cover no-repeat !important;
   position: relative;
   isolation: isolate;
 }
